@@ -27,6 +27,16 @@ A standalone always-on-top TPS overlay for **OpenCode V2 Desktop**.
 - Optional `tps` tool so models or commands can query the current metrics
 - Chinese UI by default, English UI available from the right-click menu
 
+## Screenshots
+
+| View | Chinese | English |
+| --- | --- | --- |
+| Normal mode | ![Normal mode (zh)](docs/screenshots/normal-zh.png) | ![Normal mode (en)](docs/screenshots/normal-en.png) |
+| Compact mode | ![Compact mode (zh)](docs/screenshots/compact-zh.png) | ![Compact mode (en)](docs/screenshots/compact-en.png) |
+| Context menu | ![Context menu (zh)](docs/screenshots/menu-zh.png) | ![Context menu (en)](docs/screenshots/menu-en.png) |
+
+The `60.4` in the screenshots is the `LAST` state: the `decodeTps` of the previous completed run.
+
 ## Directory Structure
 
 Repository root (installed as `%USERPROFILE%\.config\opencode\plugins\tps-overlay`):
@@ -43,6 +53,7 @@ tps-overlay\
 ├─ deploy.ps1        # Dev helper: copy sources into the plugin directory
 ├─ test-metrics.mjs  # Synthetic metric tests (no provider)
 ├─ .github\workflows\ci.yml  # CI: syntax check + metric tests
+├─ docs\screenshots\  # README screenshots (zh / en)
 ├─ .editorconfig
 ├─ .gitattributes
 ├─ .gitignore

@@ -27,6 +27,16 @@
 - 自动启动悬浮窗（可关闭）
 - 可选注册 `tps` 工具，让模型或命令查询当前指标
 
+## 截图
+
+| 视图 | 中文 | English |
+| --- | --- | --- |
+| 普通模式 | ![普通模式](docs/screenshots/normal-zh.png) | ![Normal mode](docs/screenshots/normal-en.png) |
+| 紧凑模式 | ![紧凑模式](docs/screenshots/compact-zh.png) | ![Compact mode](docs/screenshots/compact-en.png) |
+| 右键菜单 | ![右键菜单](docs/screenshots/menu-zh.png) | ![Context menu](docs/screenshots/menu-en.png) |
+
+截图中的 `60.4` 是 `LAST` / `上次` 状态，显示的是上一次完成执行的 `decodeTps`。
+
 ## 目录结构
 
 仓库根目录（安装后即 `%USERPROFILE%\.config\opencode\plugins\tps-overlay`）：
@@ -43,6 +53,7 @@ tps-overlay\
 ├─ deploy.ps1        # 开发用：把源码部署到 OpenCode 插件目录
 ├─ test-metrics.mjs  # 合成事件指标测试（不连接 provider）
 ├─ .github\workflows\ci.yml  # CI：语法检查 + 指标测试
+├─ docs\screenshots\  # README 截图（中 / 英）
 ├─ .editorconfig
 ├─ .gitattributes
 ├─ .gitignore
