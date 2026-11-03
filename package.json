@@ -1,0 +1,51 @@
+{
+  "name": "opencode-tps-overlay",
+  "version": "1.1.1",
+  "description": "OpenCode V2 TPS overlay: server plugin + always-on-top Windows tkinter window (zh-CN / en)",
+  "type": "module",
+  "main": "./index.js",
+  "exports": "./index.js",
+  "files": [
+    "index.js",
+    "overlay.py",
+    "locales",
+    "install.ps1",
+    "deploy.ps1",
+    "README.md",
+    "README.en.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node test-metrics.mjs",
+    "check": "node --check index.js"
+  },
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "opencode-v2",
+    "tps",
+    "tokens-per-second",
+    "ttft",
+    "overlay",
+    "metrics",
+    "tkinter",
+    "windows"
+  ],
+  "author": "Garrulous Sparrow (https://github.com/GarrulousSparrow)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GarrulousSparrow/opencode-tps-overlay.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GarrulousSparrow/opencode-tps-overlay/issues"
+  },
+  "homepage": "https://github.com/GarrulousSparrow/opencode-tps-overlay#readme",
+  "engines": {
+    "node": ">=18"
+  },
+  "os": [
+    "win32"
+  ]
+}
